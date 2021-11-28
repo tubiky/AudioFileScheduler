@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/018 1420 3교시 종료령.mp3-ab97d15e3ee1b07be08d620bf7116f9c.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/018 1420 3교시 종료령.mp3"
+dest_files=[ "res://.import/018 1420 3교시 종료령.mp3-ab97d15e3ee1b07be08d620bf7116f9c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

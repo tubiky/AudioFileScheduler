@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/012 1200 2교시 종료10분전.mp3-69043ba194be7f9d8452a5bc6bba2a8b.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/012 1200 2교시 종료10분전.mp3"
+dest_files=[ "res://.import/012 1200 2교시 종료10분전.mp3-69043ba194be7f9d8452a5bc6bba2a8b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

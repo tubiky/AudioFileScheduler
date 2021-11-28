@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/014 1255 3교시 입실.mp3-879048916e8974a83ac3807dfdf1d8a3.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/014 1255 3교시 입실.mp3"
+dest_files=[ "res://.import/014 1255 3교시 입실.mp3-879048916e8974a83ac3807dfdf1d8a3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

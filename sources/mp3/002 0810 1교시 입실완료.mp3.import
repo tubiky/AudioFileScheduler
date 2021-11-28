@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/002 0810 1교시 입실완료.mp3-dc9a6c399cad8a4601b3d684f66174b7.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/002 0810 1교시 입실완료.mp3"
+dest_files=[ "res://.import/002 0810 1교시 입실완료.mp3-dc9a6c399cad8a4601b3d684f66174b7.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

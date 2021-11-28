@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/Help.gd" type="Script" id=1]
+
+[node name="Help" type="Control"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 12.0
+margin_top = 20.0
+margin_right = 502.0
+margin_bottom = 580.0
+text = "Text Label 1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel"]
+margin_left = 513.059
+margin_top = 18.9405
+margin_right = 1013.06
+margin_bottom = 578.941
+text = "asfsdfaasfsdfasdf"
+__meta__ = {
+"_edit_use_anchors_": false
+}

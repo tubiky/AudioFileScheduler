@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/001 0805 1교시 입실준비.mp3-1cd16672846eec613e5dfe13406eb9c1.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/001 0805 1교시 입실준비.mp3"
+dest_files=[ "res://.import/001 0805 1교시 입실준비.mp3-1cd16672846eec613e5dfe13406eb9c1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

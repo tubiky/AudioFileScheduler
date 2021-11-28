@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/015 1300 3교시 예비령.mp3-460e5c0fb5910923cb261ff566a6df8f.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/015 1300 3교시 예비령.mp3"
+dest_files=[ "res://.import/015 1300 3교시 예비령.mp3-460e5c0fb5910923cb261ff566a6df8f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/016 1305 3교시 준비령.mp3-ac3c1f152e6d4de19bbecaf93b7b6d66.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/016 1305 3교시 준비령.mp3"
+dest_files=[ "res://.import/016 1305 3교시 준비령.mp3-ac3c1f152e6d4de19bbecaf93b7b6d66.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

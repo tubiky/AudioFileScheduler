@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/025 1525 4교시 탐구 예비령.mp3-f302707a748277cadcdd6b2ae89f23ee.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/025 1525 4교시 탐구 예비령.mp3"
+dest_files=[ "res://.import/025 1525 4교시 탐구 예비령.mp3-f302707a748277cadcdd6b2ae89f23ee.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

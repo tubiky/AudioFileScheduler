@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/028 1600 4교시 탐구 첫번째 종료5분전.mp3-da672dea710139d89270370f89dfd66d.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/028 1600 4교시 탐구 첫번째 종료5분전.mp3"
+dest_files=[ "res://.import/028 1600 4교시 탐구 첫번째 종료5분전.mp3-da672dea710139d89270370f89dfd66d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/003 0825 1교시 예비령.mp3-d3403a58407672e0154f487c56a0d2a5.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/003 0825 1교시 예비령.mp3"
+dest_files=[ "res://.import/003 0825 1교시 예비령.mp3-d3403a58407672e0154f487c56a0d2a5.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

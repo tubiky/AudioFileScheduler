@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/030 1607 4교시 탐구 두번째 본령.mp3-6006dcddb6a92ff0702d24769eb446a4.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/030 1607 4교시 탐구 두번째 본령.mp3"
+dest_files=[ "res://.import/030 1607 4교시 탐구 두번째 본령.mp3-6006dcddb6a92ff0702d24769eb446a4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

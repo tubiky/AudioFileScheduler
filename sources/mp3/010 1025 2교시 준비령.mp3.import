@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/010 1025 2교시 준비령.mp3-3560b264563da582df579784c510d8ee.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/010 1025 2교시 준비령.mp3"
+dest_files=[ "res://.import/010 1025 2교시 준비령.mp3-3560b264563da582df579784c510d8ee.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

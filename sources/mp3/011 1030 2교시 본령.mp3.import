@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/011 1030 2교시 본령.mp3-664e50e7f6c986c218858c22c5eca5bb.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/011 1030 2교시 본령.mp3"
+dest_files=[ "res://.import/011 1030 2교시 본령.mp3-664e50e7f6c986c218858c22c5eca5bb.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

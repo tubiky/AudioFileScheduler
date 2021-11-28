@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/005 0840 1교시 본령.mp3-c54a74489ab76dbb4be81e405f85a702.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/005 0840 1교시 본령.mp3"
+dest_files=[ "res://.import/005 0840 1교시 본령.mp3-c54a74489ab76dbb4be81e405f85a702.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

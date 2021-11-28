@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/017 1410 3교시 종료10분전.mp3-ef0dbd6c36fb5289a6066516a16c84ed.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/017 1410 3교시 종료10분전.mp3"
+dest_files=[ "res://.import/017 1410 3교시 종료10분전.mp3-ef0dbd6c36fb5289a6066516a16c84ed.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

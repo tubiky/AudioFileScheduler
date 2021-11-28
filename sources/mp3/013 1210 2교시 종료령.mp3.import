@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/013 1210 2교시 종료령.mp3-2b34cb21fca576f255d9ca949d3b9aa6.mp3str"
+
+[deps]
+
+source_file="res://sources/mp3/013 1210 2교시 종료령.mp3"
+dest_files=[ "res://.import/013 1210 2교시 종료령.mp3-2b34cb21fca576f255d9ca949d3b9aa6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
