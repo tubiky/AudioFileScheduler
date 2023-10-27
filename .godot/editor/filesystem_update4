@@ -1,0 +1,7 @@
+res://default_env.tres
+res://scenes/Main.tscn
+res://scenes/SceneSwitcher.tscn
+res://scripts/Data.tscn
+res://scenes/Menu.tscn
+res://scenes/Help.tscn
+res://scenes/UI/manual.tscn

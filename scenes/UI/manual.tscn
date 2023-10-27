@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvfntuuteminw"]
+
+[ext_resource type="Script" path="res://scenes/UI/manual.gd" id="1_xros2"]
+[ext_resource type="FontFile" uid="uid://dnryofts3yt5a" path="res://fonts/SB aggro B.ttf" id="2_30qsh"]
+
+[node name="Manual" type="CanvasLayer"]
+script = ExtResource("1_xros2")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 25
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/ColorRect"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_30qsh")
+theme_override_font_sizes/font_size = 40
+text = "K-SAT Scheduler 사용법"
+vertical_alignment = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "파일 형식은 반드시 아래의 형태를 지켜야합니다.
+
+재생순서 [공백] HHMM [공백] 음원 설명
+  
+예시) 001 0805 1교시 입실준비.mp3"
+
+[node name="ConfirmButton" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+text = "확인"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/ConfirmButton" to="." method="_on_confirm_button_pressed"]

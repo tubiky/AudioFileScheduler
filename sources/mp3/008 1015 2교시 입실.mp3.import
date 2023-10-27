@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/008 1015 2교시 입실.mp3-b7236883a1babeee812d04ab540e6a3c.mp3str"
+uid="uid://dk8gy7iv5ne4k"
+path="res://.godot/imported/008 1015 2교시 입실.mp3-b7236883a1babeee812d04ab540e6a3c.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/008 1015 2교시 입실.mp3"
-dest_files=[ "res://.import/008 1015 2교시 입실.mp3-b7236883a1babeee812d04ab540e6a3c.mp3str" ]
+dest_files=["res://.godot/imported/008 1015 2교시 입실.mp3-b7236883a1babeee812d04ab540e6a3c.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

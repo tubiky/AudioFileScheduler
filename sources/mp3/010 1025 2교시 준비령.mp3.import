@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/010 1025 2교시 준비령.mp3-3560b264563da582df579784c510d8ee.mp3str"
+uid="uid://1o4e6i03oehw"
+path="res://.godot/imported/010 1025 2교시 준비령.mp3-3560b264563da582df579784c510d8ee.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/010 1025 2교시 준비령.mp3"
-dest_files=[ "res://.import/010 1025 2교시 준비령.mp3-3560b264563da582df579784c510d8ee.mp3str" ]
+dest_files=["res://.godot/imported/010 1025 2교시 준비령.mp3-3560b264563da582df579784c510d8ee.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/024 1520 4교시 한국사 종료령.mp3-b2ccb57eb8b3b43d13a79a5fd386814a.mp3str"
+uid="uid://0fnaqlml13i6"
+path="res://.godot/imported/024 1520 4교시 한국사 종료령.mp3-b2ccb57eb8b3b43d13a79a5fd386814a.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/024 1520 4교시 한국사 종료령.mp3"
-dest_files=[ "res://.import/024 1520 4교시 한국사 종료령.mp3-b2ccb57eb8b3b43d13a79a5fd386814a.mp3str" ]
+dest_files=["res://.godot/imported/024 1520 4교시 한국사 종료령.mp3-b2ccb57eb8b3b43d13a79a5fd386814a.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

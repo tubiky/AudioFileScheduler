@@ -1,57 +1,98 @@
 extends Control
 
-signal scene_changed
-var dirPath
-var dir
+signal dir_selected
 
-export (String) var scene_name = "menu"
+var selected_path
+var files
+
+@onready var fileDialog = FileDialog.new() as FileDialog
+
+@export var scene_name = "menu"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	OS.set_window_title("Menu")
-	dir = Directory.new()
-	print("New Directory has been created.")
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-func _on_StartButton_pressed():
-	if dir.open(dirPath) == OK:
-		dir.list_dir_begin()
-		var file_name = dir.get_next()
-		while file_name != "":
-			if dir.current_is_dir():
-				print("Found Directory: " + file_name)
-			else:
-				if file_name.get_extension() == "mp3":
-					Data.file.append(file_name)
-					Data.schedule.append(file_name.substr(4,4))
-				else:
-					continue
-			file_name = dir.get_next()
-	else:
-		print("An error occurred when trying to access the path.")
-		
-	print(Data.file)
-	for e in Data.schedule:
-		print(int(e.substr(0,2)),"시 ", int(e.substr(2,2)), "분")
+	fileDialog.mode_overrides_title = true
+	fileDialog.title = "Choose a directory that has MP3 files"
+	fileDialog.access = FileDialog.ACCESS_FILESYSTEM
+	fileDialog.file_mode = 2
+	add_child(fileDialog)
+	fileDialog.dir_selected.connect(_on_file_dialog_dir_selected)
 	
-	print("Scene change button has been pressed.")
-	emit_signal("scene_changed", scene_name)
-	
+
+'''
+# Should return a list object including dictionaries 
+# with 4 keys(order, hour, minute, description) based on mp3 files
+# Example: [
+	{ "order": 1, hour": 08, "minute": 05, "description": "1교시 입실준비"},
+	{ "order": 2, hour": 08, "minute": 10, "description": "1교시 입실완료"}
+	]
+'''
+
 func _on_AddButton_pressed():
-	$FileDialog.rect_position.x = 12
-	$FileDialog.rect_position.y = 140
-	$FileDialog.rect_size.x = 1000
-	$FileDialog.rect_size.y = 450
-	$FileDialog.mode = FileDialog.MODE_OPEN_DIR
-	$FileDialog.current_dir = "c:/Users/user/Desktop/"
-	$FileDialog.current_path = "c:/Users/user/Desktop/"
-	$FileDialog.access = FileDialog.ACCESS_FILESYSTEM
-	$FileDialog.window_title = "Select a Folder"
-	$FileDialog.popup()
+	fileDialog.position.x = 12
+	fileDialog.position.y = 140
+	fileDialog.size.x = 1000
+	fileDialog.size.y = 450
+	#fileDialog.current_dir = "c:/Users/user/Desktop/"
+	fileDialog.popup()
 
-func _on_FileDialog_dir_selected(dir):
-	dirPath = dir
-	print(dirPath)
+
+func _on_file_dialog_dir_selected(path):
+	Data.schedule.clear()
+	Data.files.clear()
+	var dir = DirAccess.open(path)
+	selected_path = path
+	
+	if dir:
+		Data.files = dir.get_files()
+		# Data.files is an array of full file names without absolute path
+		print("Data.files: ", Data.files) 
+		for file in Data.files:
+			var schedule = file.split(" ", true, 2)
+			var each_schedule = {
+				"order": int(schedule[0]),
+				"time": schedule[1],
+				"title": schedule[2]
+			}
+			Data.schedule.append(each_schedule)
+		
+	else:
+		print("Directory not found")
+	
+
+
+# Need to iterate all the file names to make a dictionary for audio schedule
+# And set time and file that is required to be played
+func _on_start_button_pressed():
+	if selected_path != null:
+		#var main_scene = load("res://scenes/UI/Main.tscn")
+		#get_tree().change_scene_to_packed(main_scene)
+		#print(Data.schedule) # Completed!
+		for schedule in Data.schedule:
+			print(schedule["time"])
+			var hour = int(int(schedule["time"])/100)
+			print(hour)
+			if hour < Data.current_time_hour:
+				continue
+			
+			elif (int(schedule["time"]) - hour * 100) > Data.current_time_minute:
+				var file = FileAccess.open(selected_path + "/" + Data.files[0], FileAccess.READ)
+				var sound = AudioStreamMP3.new()
+				sound.data = file.get_buffer(file.get_length())
+				var audioStreamPlayer = AudioStreamPlayer.new()
+				audioStreamPlayer.set_stream(sound)
+				add_child(audioStreamPlayer)
+				audioStreamPlayer.play()
+	else:
+		print("Directory is not selected!")
+
+func _on_back_button_pressed():
+	# print("Back Button has been pressed!")
+	# print(selected_path)
+	var manual_scene = load("res://scenes/UI/manual.tscn")
+	get_tree().change_scene_to_packed(manual_scene)
+
+
+
+func _on_quit_button_pressed():
+	get_tree().quit()

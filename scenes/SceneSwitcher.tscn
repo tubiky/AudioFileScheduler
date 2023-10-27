@@ -1,9 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://bn4yv757tt1bv"]
 
-[ext_resource path="res://SceneSwitcher.gd" type="Script" id=1]
-[ext_resource path="res://scenes/Menu.tscn" type="PackedScene" id=2]
+[ext_resource type="Script" path="res://SceneSwitcher.gd" id="1"]
 
 [node name="SceneSwitcher" type="CanvasLayer"]
-script = ExtResource( 1 )
-
-[node name="Menu" parent="." instance=ExtResource( 2 )]
+script = ExtResource("1")

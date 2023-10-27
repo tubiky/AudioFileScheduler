@@ -7,23 +7,23 @@ var schedule
 
 signal scene_changed(scene_name)
 
-export (String) var scene_name = "main"
+@export var scene_name = "main"
 
-onready var audio = $AudioStreamPlayer
+@onready var audio = $AudioStreamPlayer
 
-onready var Current_Time = get_node("Current_Time")
-onready var hourLabel = Current_Time.get_node("Hour")
-onready var minuteLabel = Current_Time.get_node("Minute")
-onready var secondLabel = Current_Time.get_node("Second")
-onready var statusLabel = $CenterContainer/StatusLabel
+@onready var Current_Time = get_node("Current_Time")
+@onready var hourLabel = Current_Time.get_node("Hour")
+@onready var minuteLabel = Current_Time.get_node("Minute")
+@onready var secondLabel = Current_Time.get_node("Second")
+@onready var statusLabel = $CenterContainer/StatusLabel
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	OS.set_window_title("Main")
+	get_window().set_title("Main")
 	
-func _process(delta):
-	hour = OS.get_time()["hour"]
-	minute = OS.get_time()["minute"]
-	second = OS.get_time()["second"]
+func _process(_delta):
+	hour = Time.get_time_dict_from_system()["hour"]
+	minute = Time.get_time_dict_from_system()["minute"]
+	second = Time.get_time_dict_from_system()["second"]
 	
 	hourLabel.text = str(hour) + "시 "
 	minuteLabel.text = str(minute) + "분 "
@@ -214,4 +214,4 @@ func _on_AudioStreamPlayer_finished():
 
 func _on_SetupButton_pressed():
 	print("Scene change button has been pressed.")
-	emit_signal("scene_changed", scene_name)
+	

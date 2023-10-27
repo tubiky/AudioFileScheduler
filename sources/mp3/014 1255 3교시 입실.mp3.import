@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/014 1255 3교시 입실.mp3-879048916e8974a83ac3807dfdf1d8a3.mp3str"
+uid="uid://c566vsf5v7jdt"
+path="res://.godot/imported/014 1255 3교시 입실.mp3-879048916e8974a83ac3807dfdf1d8a3.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/014 1255 3교시 입실.mp3"
-dest_files=[ "res://.import/014 1255 3교시 입실.mp3-879048916e8974a83ac3807dfdf1d8a3.mp3str" ]
+dest_files=["res://.godot/imported/014 1255 3교시 입실.mp3-879048916e8974a83ac3807dfdf1d8a3.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

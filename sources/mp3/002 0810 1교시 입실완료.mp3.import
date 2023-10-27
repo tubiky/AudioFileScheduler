@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/002 0810 1교시 입실완료.mp3-dc9a6c399cad8a4601b3d684f66174b7.mp3str"
+uid="uid://btwb3r2oishc7"
+path="res://.godot/imported/002 0810 1교시 입실완료.mp3-dc9a6c399cad8a4601b3d684f66174b7.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/002 0810 1교시 입실완료.mp3"
-dest_files=[ "res://.import/002 0810 1교시 입실완료.mp3-dc9a6c399cad8a4601b3d684f66174b7.mp3str" ]
+dest_files=["res://.godot/imported/002 0810 1교시 입실완료.mp3-dc9a6c399cad8a4601b3d684f66174b7.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

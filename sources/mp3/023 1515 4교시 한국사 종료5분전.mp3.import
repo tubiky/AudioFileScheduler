@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/023 1515 4교시 한국사 종료5분전.mp3-ba8dd8e28a12455daafcc0de329bfaa6.mp3str"
+uid="uid://cjovsnvm27ffk"
+path="res://.godot/imported/023 1515 4교시 한국사 종료5분전.mp3-ba8dd8e28a12455daafcc0de329bfaa6.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/023 1515 4교시 한국사 종료5분전.mp3"
-dest_files=[ "res://.import/023 1515 4교시 한국사 종료5분전.mp3-ba8dd8e28a12455daafcc0de329bfaa6.mp3str" ]
+dest_files=["res://.godot/imported/023 1515 4교시 한국사 종료5분전.mp3-ba8dd8e28a12455daafcc0de329bfaa6.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,36 +1,47 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://b5manuxg7bjec"]
 
-[ext_resource path="res://scenes/Help.gd" type="Script" id=1]
+[sub_resource type="GDScript" id="GDScript_wccse"]
+script/source = "extends Control
+
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+"
 
 [node name="Help" type="Control"]
-script = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+layout_mode = 3
+anchors_preset = 0
+script = SubResource("GDScript_wccse")
 
 [node name="Panel" type="Panel" parent="."]
-margin_right = 1024.0
-margin_bottom = 600.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
+layout_mode = 0
+offset_right = 1024.0
+offset_bottom = 600.0
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
-margin_left = 12.0
-margin_top = 20.0
-margin_right = 502.0
-margin_bottom = 580.0
+layout_mode = 0
+offset_left = 12.0
+offset_top = 20.0
+offset_right = 502.0
+offset_bottom = 580.0
 text = "Text Label 1"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="Panel"]
-margin_left = 513.059
-margin_top = 18.9405
-margin_right = 1013.06
-margin_bottom = 578.941
+layout_mode = 0
+offset_left = 513.059
+offset_top = 18.9405
+offset_right = 1013.06
+offset_bottom = 578.941
 text = "asfsdfaasfsdfasdf"
-__meta__ = {
-"_edit_use_anchors_": false
-}

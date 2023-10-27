@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/032 1637 4교시 탐구 두번째 종료령 시험장 종료.mp3-825ef3ed3715cec38ab3391867b57933.mp3str"
+uid="uid://bmh5vd2nn2s2p"
+path="res://.godot/imported/032 1637 4교시 탐구 두번째 종료령 시험장 종료.mp3-825ef3ed3715cec38ab3391867b57933.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/032 1637 4교시 탐구 두번째 종료령 시험장 종료.mp3"
-dest_files=[ "res://.import/032 1637 4교시 탐구 두번째 종료령 시험장 종료.mp3-825ef3ed3715cec38ab3391867b57933.mp3str" ]
+dest_files=["res://.godot/imported/032 1637 4교시 탐구 두번째 종료령 시험장 종료.mp3-825ef3ed3715cec38ab3391867b57933.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/018 1420 3교시 종료령.mp3-ab97d15e3ee1b07be08d620bf7116f9c.mp3str"
+uid="uid://bykqruuewhuby"
+path="res://.godot/imported/018 1420 3교시 종료령.mp3-ab97d15e3ee1b07be08d620bf7116f9c.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/018 1420 3교시 종료령.mp3"
-dest_files=[ "res://.import/018 1420 3교시 종료령.mp3-ab97d15e3ee1b07be08d620bf7116f9c.mp3str" ]
+dest_files=["res://.godot/imported/018 1420 3교시 종료령.mp3-ab97d15e3ee1b07be08d620bf7116f9c.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

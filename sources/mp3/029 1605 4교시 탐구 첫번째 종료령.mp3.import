@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/029 1605 4교시 탐구 첫번째 종료령.mp3-062477f74c8ea872a46ec231cadad849.mp3str"
+uid="uid://3y5x5qamkbk5"
+path="res://.godot/imported/029 1605 4교시 탐구 첫번째 종료령.mp3-062477f74c8ea872a46ec231cadad849.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/029 1605 4교시 탐구 첫번째 종료령.mp3"
-dest_files=[ "res://.import/029 1605 4교시 탐구 첫번째 종료령.mp3-062477f74c8ea872a46ec231cadad849.mp3str" ]
+dest_files=["res://.godot/imported/029 1605 4교시 탐구 첫번째 종료령.mp3-062477f74c8ea872a46ec231cadad849.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

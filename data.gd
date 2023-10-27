@@ -1,19 +1,21 @@
 extends Node2D
 
+
 var schedule = Array()
-var file = Array()
+var files = PackedStringArray()
+
+var current_time_hour
+var current_time_minute
+var current_time_second
+
+# Need to append all files into 'file' variable
+# need to sort out every file in an order of index and extract schedule from it
+# need to make schedule automatically based on the second string of each file
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	current_time_hour = Time.get_time_dict_from_system()["hour"]
+	current_time_minute = Time.get_time_dict_from_system()["minute"]
+	current_time_second = Time.get_time_dict_from_system()["second"]
+	
+	# print(current_time_hour, ":", current_time_minute, ":", current_time_second)

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/021 1445 4교시 한국사 준비령.mp3-ab51f4163c389eb5b26ddd1111ba95e7.mp3str"
+uid="uid://hunv5xiv3p1j"
+path="res://.godot/imported/021 1445 4교시 한국사 준비령.mp3-ab51f4163c389eb5b26ddd1111ba95e7.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/021 1445 4교시 한국사 준비령.mp3"
-dest_files=[ "res://.import/021 1445 4교시 한국사 준비령.mp3-ab51f4163c389eb5b26ddd1111ba95e7.mp3str" ]
+dest_files=["res://.godot/imported/021 1445 4교시 한국사 준비령.mp3-ab51f4163c389eb5b26ddd1111ba95e7.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

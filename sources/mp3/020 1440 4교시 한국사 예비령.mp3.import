@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/020 1440 4교시 한국사 예비령.mp3-f5e46bcdb23577996d4261722af225a0.mp3str"
+uid="uid://fq4esomj1miy"
+path="res://.godot/imported/020 1440 4교시 한국사 예비령.mp3-f5e46bcdb23577996d4261722af225a0.mp3str"
 
 [deps]
 
 source_file="res://sources/mp3/020 1440 4교시 한국사 예비령.mp3"
-dest_files=[ "res://.import/020 1440 4교시 한국사 예비령.mp3-f5e46bcdb23577996d4261722af225a0.mp3str" ]
+dest_files=["res://.godot/imported/020 1440 4교시 한국사 예비령.mp3-f5e46bcdb23577996d4261722af225a0.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
